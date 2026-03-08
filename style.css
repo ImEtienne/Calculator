@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html, body{
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(7, 7, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(20, 20, 60);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+.buttons{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn{
+    border: none;
+    width: 61px;
+    height: 61px;
+    border-radius: 8px;
+    background-color: rgb(40, 40, 80);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid  rgb(40, 40, 80);
+}
+
+.btn:hover{
+    background-color: rgb(60, 60, 120);
+}
+
+.btn:active{
+    transform: scale(0.95);
+}
+
+.display{
+    border-radius: 5px;
+    height: 80px;
+    background-color: rgb(3, 3, 58);
+    display: flex;  
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
+    width: 100%;
+}
+
+input{
+    background-color: transparent;
+    text-align: right;
+    border: none;
+    font-size: 32px;
+    color: #fff;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+input:focus{
+    outline: none;
+}
+
+#divide{
+    background-color: orange;
+}
+
+#divide:hover{
+    background-color: rgb(234, 156, 12);
+}
+
+#multiply{
+    background-color: orange;
+}
+#multiply:hover{
+    background-color: rgb(234, 156, 12);
+}           
+#subtract{
+    background-color: orange;
+} 
+#subtract:hover{
+    background-color: rgb(234, 156, 12);
+}  
+
+#add{
+    background-color: orange;
+}
+#add:hover{
+    background-color: rgb(234, 156, 12);
+}
+#equals{
+    background-color: orange;
+}
+#equals:hover{
+    background-color: rgb(234, 156, 12);
+}
